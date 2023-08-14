@@ -18,6 +18,11 @@
     ></script>
     <!-- Local CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      body {
+        background: black;
+      }
+    </style>
   </head>
 
   <body>
@@ -2397,6 +2402,76 @@
       <p>🗼 tokyo, tower, Tokyo tower, Tokyo</p>
       <p>🗑 wastebasket</p>
     </div>
+    <script>
+      // List of color hex codes
+      const colors = [
+        "#FFFFFF",
+        "#FF0000",
+        "#FFD700",
+        "#4169E1",
+        "#00FF00",
+        "#800080",
+        "#008080",
+        "#FF6F61",
+        "#FFFF00",
+        "#FF00FF",
+        "#00FFFF",
+        "#008000",
+        "#FFA500",
+        "#FFC0CB",
+        "#7DF9FF",
+        "#E6E6FA",
+        "#8B0000",
+        "#FF69B4",
+        "#40E0D0",
+        "#800080",
+        "#000080",
+        "#39FF14",
+        "#FF1493",
+        "#808080",
+        "#98FF98",
+        "#800000",
+        "#00CED1",
+        "#FF6B8B",
+        "#FFDB58",
+        "#008080",
+        "#E0115F",
+        "#808000",
+        "#87CEEB",
+        "#CC5500",
+        "#000080",
+        "#4B0082",
+        "#FA8072",
+        "#00FF00",
+        "#FFDAB9",
+        "#191970",
+        "#0000FF",
+        "#8A2BE2",
+        "#A0522D",
+        "#556B2F",
+        "#8B4513",
+        "#2E8B57",
+        "#483D8B",
+        "#9400D3",
+        "#3CB371",
+        "#B22222",
+      ];
+      // Get all <p> tags on the page
+      const paragraphs = document.getElementsByTagName("body");
+
+      // Loop through the <p> tags and apply random colors
+      for (let i = 0; i < paragraphs.length; i++) {
+        const randomColor = colors[Math.floor(Math.random() * colors.length)];
+        paragraphs[i].style.color = randomColor;
+      }
+
+      //   // Get a random color from the list
+      //   const randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+      //   // Apply the random color to the <p> tag
+      //   const colorText = document.getElementById("colorText");
+      //   colorText.style.color = randomColor;
+    </script>
     <!--  Bootstrap JS Separate CDN -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
