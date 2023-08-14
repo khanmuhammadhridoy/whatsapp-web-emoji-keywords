@@ -1,10 +1,9 @@
 # whatsapp-web-emoji-keywords
-
-      -0⃣ 0, keycap, zero 
-      -1⃣ 1, number, one 
-      -🕜 1, 30, clock, time, one, thirty, 1:30, one-thirty 
-      -🕐 1, clock, time, one, 00, o’clock, 1:00, one o’clock 
-      -2⃣ 2, number, two 
+-0⃣ 0, keycap, zero 
+-1⃣ 1, number, one 
+-🕜 1, 30, clock, time, one, thirty, 1:30, one-thirty
+-🕐 1, clock, time, one, 00, o’clock, 1:00, one o’clock 
+-2⃣ 2, number, two 
       -🕝 2, 30, clock, time, two, thirty, 2:30, two-thirty 
       -🕑 2, clock, time, two, 00, o’clock, 2:00, two o’clock 
       -3⃣ 3, keycap, three 
